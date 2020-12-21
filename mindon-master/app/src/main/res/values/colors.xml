@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#02477C</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="colorBackground">#00345C</color>
+
+    <color name="btnPular">#F44336</color>
+
+    <color name="almostWhite">#effbff</color>
+    <color name="nightBlue">#00345c</color>
+    <color name="darkBlue">#081821</color>
+    <color name="darkNightBlue">#00497b</color>
+    <color name="greenEmerald">#4ed18e</color>
+
+    <color name="colorGray">#586058</color>
+
+
+    <color name="orangeForButton">#f78a00</color>
+
+    <color name="bgHangman1">#0BA193</color>
+    <color name="bgHangman2">#048C7F</color>
+    <color name="lyricsHangman">#F7F7F7</color>
+    <color name="secondaryHangman">#D7CCC8</color>
+    <color name="scoreHangman">#FFC107</color>
+
+
+</resources>

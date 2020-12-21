@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mindon">
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" /> <!-- pedir permissao para utilizar recursos da camera e galeria -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.ManualActivity"></activity>
+        <activity android:name=".activity.CreditosActivity" />
+        <activity android:name=".activity.LigarAvancadoActivity" />
+        <activity android:name=".activity.LigarInterActivity" />
+        <activity android:name=".activity.GameOverHangman" />
+        <activity android:name=".activity.HangmanGame" />
+        <activity android:name=".activity.ChooseLevel" />
+        <activity android:name=".activity.LigarActivity" />
+        <activity android:name=".activity.MemoryAvancadoActivity" />
+        <activity android:name=".activity.MemoryInterActivity" />
+        <activity
+            android:name=".activity.JogoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.MemoryActivity"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity
+            android:name=".activity.AjudaActivity"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity android:name=".activity.ProgressUndefActivity" />
+        <activity android:name=".activity.ProgressMusicActivity" />
+        <activity android:name=".activity.ProgressLabrinthActivity" />
+        <activity android:name=".activity.ProgressMemoryActivity" />
+        <activity android:name=".activity.SettingsActivity" />
+        <activity android:name=".activity.NivelamentoActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.EscolhaNivelActivity" />
+        <activity android:name=".activity.CadastroActivity" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:theme="@style/perfilTheme" />
+    </application>
+
+</manifest>
